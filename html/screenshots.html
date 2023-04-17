@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zrzuty Ekranu | Mario Kart 9</title>
+        <link rel="icon" type="image/x-icon" href="caricon.ico">
+        <style>
+            body{
+                background: rgb(0, 27, 37);
+                height: 100%;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+
+            a{
+                all:unset;
+            }
+            .logo{
+                height: 50%;
+                margin-top: -150px;
+                position:absolute;
+
+            }
+            .start{
+                background-color: black;
+                width: 100%;
+                margin:-10;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            footer{
+                background-color: black;
+                width:100%;
+                position:absolute;
+                bottom:-1500;
+                margin:-10;
+                
+            }
+            h1{
+                color: purple;
+                font-family: Papyrus;
+                text-align: center;
+            }
+            h2,h3,h4{
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            .unrelated{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                width: 1120;
+                height: 630;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+
+            }
+            .basicbutton{
+                border: 5px solid rgb(110, 90, 0);
+                background-color: rgb(41, 41, 41);
+                color: rgb(255, 255, 255);
+                padding: 30px 30px;
+                text-align: center;
+                display: inline-block;
+                font-size: 20px;
+                transition-duration: 0.5s;
+                box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+                width: 200px;
+            }
+            .basicbutton:hover{
+                color: cyan;
+                border-color: cyan;
+            }
+            .screenshot{
+                margin: 10px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+
+            }
+            .singlescreenshot{
+                margin: 10px;
+                padding: 10px;
+                height:50%;
+                width:50%;
+                transition:transform 0.25s ease;
+            }
+            .singlescreenshot:hover{
+                -webkit-transform:scale(2);
+                transform:scale(2);
+            }
+            .login{
+                position: absolute;
+                top:15;
+                right: 10;
+            }
+            .loginbutton{
+                border: none;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                padding: 0px 0px;
+                text-align: center;
+                display: inline-block;
+                font-size: 20px;
+                transition-duration: 0.5s;
+                width: 200px;
+            }
+            .loginbutton:hover{
+                color: cyan;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+    <footer>
+        <h4>Gra Mario Kart 9 jest parodią serii gier Mario Kart wyprodukowaniej przez Nintendo.</h4>
+        <h4>Wszystkie postacie, pojazdy oraz sytuacje są nawiązaniami do gier Nintendo.</h4>
+        <h4>Filmik obecny na stronie nie jest w żaden sposób związany z moją grą.</h4>
+        <h4>Gra wyprodukowana przeze mnie. Kod jest w 100% mój. Zabrania się kopiowania.</h4>
+    </footer>
+    <div class="start">
+    <div><h1>==Mario Kart 9==</h1></div>
+    <div><h3>Emocje jak na grzybach! Ścigaj się w zupełnie nowym stylu!</h3></div>
+    <div><h4>Tylko na konsolę (chodzi o konsolę poleceń w windowsie, python wymagany)</h4></div>
+    </div>
+    <div class="flex-container">
+    <div><button class="basicbutton" onclick="location.href='index.html';"value="Główna">Główna</button></div>
+    <div><button class="basicbutton" onclick="location.href='https://drive.google.com/file/d/1742NcvbbgdrYPhPFI0Vfetk9NrpiVBTT/view?usp=sharing';"value="Download">Pobieranie</button></div>
+    <div><button class="basicbutton" onclick="location.href='https://www.facebook.com/groups/225875866590968';"value="Fanpage">Fanpage</button></div>
+    <div><button class="basicbutton" onclick="location.href='screenshots.html';"value="Screenshots">Zrzuty Ekranu</button></div>
+    </div>
+    <div class="logo">
+    <div><img class="logo" src="mariokart9logo.png"></div>
+    </div>
+    <div class="login">
+    <div><button class="loginbutton" onclick="location.href='register.html';"value="Zaloguj/Zarejestruj">Zaloguj/Zarejestruj</button></div>
+    </div>
+    <center>
+    <div class="screenshot">
+        <div><img class="singlescreenshot" src="1.png"></div>
+        <div><img class="singlescreenshot" src="2.png"></div>
+        <div><img class="singlescreenshot" src="3.png"></div>
+        <div><img class="singlescreenshot" src="4.png"></div>
+    </div>
+    </center>
+    <h4></h4>
+    </body>
+</html>
